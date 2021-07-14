@@ -29,4 +29,20 @@ reportWebVitals();
     # Transclusion
     # Ev Tabset with tabs
 
+
+  INFO:
+
+    For absolute imports, create a jsconfig.json file in the root folder with:
+    {
+      "compilerOptions": {
+          "baseUrl": "./src/"
+      }
+    }
+
+    Then import with:
+    import Home from Components/Home/Home
+
+    There is also a .env file (see redux-repetition), but it doesnt seem to matter for this.
+
+
 */
