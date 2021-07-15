@@ -1,5 +1,4 @@
 import { BrowserRouter as Router } from "react-router-dom";
-import './App.css';
 
 import Menu from './Components/Layout/Menu'
 import ViewsContainer from "./Components/Layout/ViewsContainer";

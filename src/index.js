@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
@@ -21,7 +21,6 @@ reportWebVitals();
 
   TODO:
 
-    # Sass compiler (NOT node-sass)
     # Bootstrap partial
     # Hooks
     # Transclusion
