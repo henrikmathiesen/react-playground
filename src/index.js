@@ -21,8 +21,6 @@ reportWebVitals();
 
   TODO:
 
-    # Routing
-    # Views
     # Sass compiler (NOT node-sass)
     # Bootstrap partial
     # Hooks
