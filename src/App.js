@@ -1,7 +1,7 @@
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router } from 'react-router-dom';
 
 import Menu from './Components/Layout/Menu'
-import ViewsContainer from "./Components/Layout/ViewsContainer";
+import ViewsContainer from './Components/Layout/ViewsContainer';
 
 function App() {
   return (
