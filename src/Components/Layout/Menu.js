@@ -17,6 +17,12 @@ function Menu() {
                 <li>
                     <NavLink to="/hooks">Hooks</NavLink>
                 </li>
+                <li>
+                    <NavLink to="/items">Items</NavLink>
+                </li>
+                <li>
+                    <NavLink to="/items/1">Items ID: 1</NavLink>
+                </li>
             </ul>
         </nav>
     );
