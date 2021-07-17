@@ -82,6 +82,7 @@ reportWebVitals();
     @import '/src/sass/settings';
     @import "~bootstrap/scss/functions";        // REQUIRED
     @import "~bootstrap/scss/variables";
+    @import "~bootstrap/scss/mixins";
 
     // Basics.js
     import './Basics.scss';

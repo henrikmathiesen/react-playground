@@ -1,10 +1,11 @@
 import { NavLink } from "react-router-dom";
+import './Menu.scss';
 
 function Menu() {
 
     return (
         <nav>
-            <ul>
+            <ul className="Menu-list">
                 <li>
                     <NavLink exact to="/">Home</NavLink >
                 </li>
