@@ -21,8 +21,10 @@ reportWebVitals();
 
   TODO:
 
-    # Bootstrap partial
+    # Higher-Order Components
+      https://reactjs.org/docs/higher-order-components.html
     # Hooks
+      https://reactjs.org/docs/hooks-overview.html
     # Transclusion
       https://stackoverflow.com/questions/48255464/react-styling-with-create-react-app
     # Ev Tabset with tabs
