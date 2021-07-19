@@ -53,9 +53,10 @@ reportWebVitals();
     Not scoped like Angular
 
 
-    REACT ICONS
+    REACT ICONS, MOTION
 
     https://react-icons.github.io/react-icons
+    https://www.npmjs.com/package/react-motion
 
 
     BOOTSTRAP THEMING
