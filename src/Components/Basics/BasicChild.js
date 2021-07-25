@@ -6,7 +6,7 @@
 import PropTypes from 'prop-types';
 import SuccessButton from '../Shared/Buttons/SuccessButton';
 
-function BasicChild({ user, config }) { 
+function BasicChild({ user, config, onSomeBtnClick }) { 
 
     const { name, age } = user;
     const { a, b } = config;
@@ -20,7 +20,7 @@ function BasicChild({ user, config }) {
                 {a} {b}
             </div>
             <div>
-                <SuccessButton text="Okey" />
+                <SuccessButton text="Okey" onClickFn={onSomeBtnClick} />
             </div>
         </div>
     );
@@ -30,7 +30,8 @@ function BasicChild({ user, config }) {
 // Some typechecking here, can also append isRequired
 BasicChild.propTypes = {
     user: PropTypes.object,
-    config: PropTypes.object
+    config: PropTypes.object,
+    onSomeBtnClick: PropTypes.func
 }
 
 export default BasicChild;

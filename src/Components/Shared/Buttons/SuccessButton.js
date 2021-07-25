@@ -3,10 +3,10 @@ import { ImCheckmark } from "react-icons/im";
 import Button from './Button';
 import { iconStyle, btnType } from './button-utils';
 
-function SuccessButton({ text }) { 
+function SuccessButton({ text, onClickFn }) { 
 
     return (
-        <Button btnTypeClass={btnType.SUCCESS}>
+        <Button btnTypeClass={btnType.SUCCESS} onClickFn={onClickFn}>
             <ImCheckmark style={ iconStyle } />
             {text || 'OK'}
         </Button>
@@ -15,7 +15,8 @@ function SuccessButton({ text }) {
 }
 
 SuccessButton.propTypes = {
-    text: PropTypes.string
+    text: PropTypes.string,
+    onClickFn: PropTypes.func
 };
 
 export default SuccessButton;

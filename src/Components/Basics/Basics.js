@@ -20,7 +20,7 @@ function Basics() {
     return (
         <div>
             <h2>Basics</h2>
-            <BasicChild user={user} config={config} />
+            <BasicChild user={user} config={config} onSomeBtnClick={onSomeBtnClick} />
         </div>
     );
 }
