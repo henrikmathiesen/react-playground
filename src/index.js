@@ -22,12 +22,15 @@ reportWebVitals();
   TODO:
 
     # Basics, loop, and loop another component with key
+    # Ajax calls
+      https://reactjs.org/docs/faq-ajax.html
+      https://www.pluralsight.com/guides/how-to-handle-ajax-with-react
     # Higher-Order Components
-        https://reactjs.org/docs/higher-order-components.html
+      https://reactjs.org/docs/higher-order-components.html
     # Hooks
-        https://reactjs.org/docs/hooks-overview.html
+      https://reactjs.org/docs/hooks-overview.html
     # react-motion
-        https://www.npmjs.com/package/react-motion
+      https://www.npmjs.com/package/react-motion
     # Forms
       https://formik.org/
 
