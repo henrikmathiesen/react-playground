@@ -84,6 +84,7 @@ reportWebVitals();
 
     Would be trouble using a combined component-dependencies file, since that file should then include bootstrap settings
     and would be used in index.scss preferebly, but all of bootstrap, including its settings file is already there.
+    Could however do a component-dependencies and JUST use it in components ....
 
     // Basics.scss
     @import '/src/sass/settings';
