@@ -41,6 +41,7 @@ function Basics() {
                 <ul>
                     {
                         data.map(v => <li key={v.id}>{v.text}</li>)
+                        // ALSO see task-tracker > Tasks.js for looping component
                     }
                 </ul>
             </div>
