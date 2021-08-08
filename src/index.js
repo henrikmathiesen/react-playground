@@ -21,7 +21,6 @@ reportWebVitals();
 
   TODO:
 
-    # Basics, loop, and loop another component with key
     # Ajax calls
       https://reactjs.org/docs/faq-ajax.html
       https://www.pluralsight.com/guides/how-to-handle-ajax-with-react
