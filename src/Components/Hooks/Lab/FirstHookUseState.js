@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-function FirstHookSetState() {
+function FirstHookUseState() {
 
     /*
 
@@ -40,4 +40,4 @@ function FirstHookSetState() {
 
 }
 
-export default FirstHookSetState;
+export default FirstHookUseState;

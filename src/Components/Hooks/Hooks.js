@@ -1,5 +1,5 @@
 import { Switch, Route, useRouteMatch, NavLink } from 'react-router-dom';
-import FirstHookSetState from './Lab/FirstHookSetState';
+import FirstHookUseState from './Lab/FirstHookUseState';
 
 function Hooks() {
     const match = useRouteMatch();
@@ -23,14 +23,15 @@ function Hooks() {
             <hr />
             <nav>
                 <ul>
-                    <li><NavLink to={`${match.url}/first-hook-set-state`}>Lets try a first hook</NavLink></li>
+                    <li><NavLink to={`${match.url}/first-hook-use-state`}>Lets try a first hook useState</NavLink></li>
+                    {/* <li><NavLink to={`${match.url}/first-hook-use-ref`}>Lets try a first hook</NavLink></li> */}
                 </ul>
             </nav>
             <hr />
 
             <Switch>
                 <Route path={`${match.path}/first-hook-set-state`}>
-                    <FirstHookSetState />
+                    <FirstHookUseState />
                 </Route>
             </Switch>
 
