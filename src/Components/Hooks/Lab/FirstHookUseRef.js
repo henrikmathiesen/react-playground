@@ -1,4 +1,4 @@
-import DivChangeColor from '../../Shared/DivChangeColor';
+import { DivChangeColor } from '../../Shared';
 
 function FirstHookUseRef() {
 
@@ -8,7 +8,7 @@ function FirstHookUseRef() {
     
     */
 
-    return(
+    return (
         <div className="row">
             <div className="col-md-8 col-lg-6">
                 <DivChangeColor colorOne="navy" colorTwo="olive" />

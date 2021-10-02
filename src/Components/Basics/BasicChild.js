@@ -4,7 +4,7 @@
 // Then we can destruct again inside the function to simplify more
 
 import PropTypes from 'prop-types';
-import SuccessButton from '../Shared/Buttons/SuccessButton';
+import { SuccessButton } from '../Shared';
 
 function BasicChild({ user, config, onSomeBtnClick }) { 
 

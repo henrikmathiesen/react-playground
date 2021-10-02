@@ -1,5 +1,4 @@
-import SuccessButton from '../Shared/Buttons/SuccessButton';
-import DangerButton from '../Shared/Buttons/DangerButton';
+import { SuccessButton, DangerButton } from '../Shared';
 
 function Transclusion() {
     return (
