@@ -23,8 +23,8 @@ function Hooks() {
             <hr />
             <nav>
                 <ul>
-                    <li><NavLink to={`${match.url}/first-hook-use-state`}>Lets try a first hook useState</NavLink></li>
-                    <li><NavLink to={`${match.url}/first-hook-use-ref`}>Lets try a first hook useRef</NavLink></li>
+                    <li><NavLink to={`${match.url}/first-hook-use-state`}>Lets try a first hook, useState</NavLink></li>
+                    <li><NavLink to={`${match.url}/first-hook-use-ref`}>Lets try a first hook, useRef</NavLink></li>
                 </ul>
             </nav>
             <hr />
