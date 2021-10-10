@@ -1,5 +1,5 @@
 import { Switch, Route, useRouteMatch, NavLink } from 'react-router-dom';
-import { FirstHookUseRef, FirstHookUseState, FirstHookUseEffect } from './Lab';
+import { FirstHookUseRef, FirstHookUseState, FirstHookUseEffect, DivChangeColorOnScrollUseEffect } from './Lab';
 
 function Hooks() {
     const match = useRouteMatch();
@@ -26,6 +26,7 @@ function Hooks() {
                     <li><NavLink to={`${match.url}/first-hook-use-state`}>Lets try a first hook, useState</NavLink></li>
                     <li><NavLink to={`${match.url}/first-hook-use-ref`}>Lets try a first hook, useRef</NavLink></li>
                     <li><NavLink to={`${match.url}/first-hook-use-effect`}>Lets try a first hook, useEffect</NavLink></li>
+                    <li><NavLink to={`${match.url}/div-change-color-on-scroll-use-effect`}>Div change color on scroll, useEffect</NavLink></li>
                 </ul>
             </nav>
             <hr />
@@ -39,6 +40,9 @@ function Hooks() {
                 </Route>
                 <Route path={`${match.path}/first-hook-use-effect`}>
                     <FirstHookUseEffect />
+                </Route>
+                <Route path={`${match.path}/div-change-color-on-scroll-use-effect`}>
+                    <DivChangeColorOnScrollUseEffect />
                 </Route>
             </Switch>
 
