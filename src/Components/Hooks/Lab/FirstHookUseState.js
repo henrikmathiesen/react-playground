@@ -12,18 +12,31 @@ function FirstHookUseState() {
 
     */
 
+    const [isClicked, setIsClicked] = useState(false);
     const [inputText, setInputText] = useState('');
     const [historyList, setHistoryList] = useState([]);
 
-    function onInputChange(e) { 
+    function onInputChange(e) {
         setInputText(e.target.value);
         setHistoryList([...historyList, e.target.value]);
     }
+
+    // This will have no effect, since we are not setting state
+    // let isClicked = false;
+    // const onBtnClick = () => {
+    //     isClicked = !isClicked;
+    // }
+
+    // Do it like this instead (with useState above)
+    const onBtnClick = () => setIsClicked(!isClicked);
 
     return (
         <div className="row">
             <div className="col-md-8 col-lg-6">
                 <div>
+                    <button className={`btn btn-secondary ${isClicked && 'toggle-clicked'}`} onClick={onBtnClick}>Click me</button>
+                </div>
+                <div className="mt-2">
                     <input className="form-control" onChange={onInputChange} />
                 </div>
                 <div className="mt-2">
