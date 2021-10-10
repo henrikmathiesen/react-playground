@@ -19,6 +19,10 @@ function DivChangeColor({ colorOne, colorTwo }) {
         divRef.current.style.backgroundColor = colorOne;
     }
 
+    // The events onMouseOver and onMouseOut are added when this component mounts and removed when unmounts
+    // This is built in. But for native listeners, we need to clean up:
+    // https://app.pluralsight.com/guides/how-to-cleanup-event-listeners-react
+
     return (
         <div className="p-4" style={divStyle} onMouseOver={onMouseOver} onMouseOut={onMouseOut} ref={divRef}>
             <p>
