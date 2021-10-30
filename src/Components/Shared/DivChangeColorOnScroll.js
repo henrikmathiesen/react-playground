@@ -26,6 +26,7 @@ function DivChangeColorOnScroll({ children, colorOne, colorTwo, isLast }) {
             window.removeEventListener('scroll', onScroll);
         }
 
+        // https://stackoverflow.com/questions/55840294/how-to-fix-missing-dependency-warning-when-using-useeffect-react-hook
         // eslint-disable-next-line
     }, []);
 
