@@ -19,11 +19,14 @@ function DivChangeColorOnScroll({ children, colorOne, colorTwo, isLast }) {
     useEffect(() => {
         console.log('div change color on scroll');
         window.addEventListener('scroll', onScroll);
+        setInView(isInView());
 
         return () => {
             console.log('div change color on scroll, cleanup');
             window.removeEventListener('scroll', onScroll);
         }
+
+        // eslint-disable-next-line
     }, []);
 
     return (
